@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando formulário de cadastro</title>
+
+</head>
+
+<body>
+
+    <main>
+
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend   legend>Formulário para o evento de Tecnologia na Kenzie</legend>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="Nome" placeholder="Digite seu nome aqui" required="true">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="Email" placeholder="Digite seu e-mail aqui" required="true">
+
+                    <br>
+                    <label for="motivation">Motivação do por que querer participar no evento:</label>
+                    <br>
+                    <textarea name="" id="motivation" cols="30" rows="10" required="true"></textarea>
+
+                    <br>
+                    <label for="module">Em qual módulo você está?</label>
+                    <select name="Modulo" id="module" required="true">
+                        <option value="">Módulos</option>
+                        <option value="m1">M1</option>
+                        <option value="m2">M2</option>
+                        <option value="m3">M3</option>
+                        <option value="m4">M4</option>
+                        <option value="m5">M5</option>
+                        <option value="m6">M6</option>
+                    </select>
+
+                    <br>
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="senha" placeholder="Digite sua senha aqui" required="true" maxlength="8">
+
+                    <br>
+                    <p>Deseja receber notificações em seu e-mail sobre nosso evento?</p>
+                    <label for="yes">Sim</label>
+                    <input type="radio" name="notificacoesEmail" value="sim" id="yes" required="true">
+
+                    <label for="no">Não</label>
+                    <input type="radio" name="notificacoesEmail" value="nao" id="no" required="true">
+
+                    <br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    
+</body>
+
+</html>

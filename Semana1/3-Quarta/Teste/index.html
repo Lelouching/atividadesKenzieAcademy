@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Testes de Quarta">
+    <meta name="author" content="Jhonata">
+    <link rel="icon" href="./src/img/38ae41a55089c5028bbca6f5bf9e15bd.jpg">
+    <title>Teste</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <section>
+            <h1>Página de teste de Quarta</h1>
+            <nav>
+                <a href="teste.html">Coisa interessante</a> |
+                <a href="https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwi8wqOAnZr5AhXelZUCHT1EDsIQPAgI" target="_blank">Faça qualquer pesquisa aqui!</a>
+            </nav>
+            <hr>
+        </section>
+
+    </header>
+
+    <main>
+
+        <section>
+            <form action="">
+                <!--Também existe inputs com tipo de checkbox, month, radio, time, range, reset, tel, email, file e color. Obs: Fieldset não é obrigatório no form.-->
+                <!--E usar mais div no lugar do <br> quando for para quebrar 2 linhas ou mais-->
+                <fieldset>
+                    <legend>Formulário</legend>
+                    <label hidden for="name">Digite seu nome</label>
+                    <br>
+                    <input type="text" id="name" name="Nome" placeholder="Seu nome" required="true">
+                    <br>
+
+                    <label for="date">Digite sua data de nascimento</label>
+                    <br>
+                    <input type="date" id="date" name="DataDeNascimento" placeholder="Sua data de nascimento" required="true">
+                    <br>
+
+                    <label   label for="number">Digite sua idade</label>
+                    <br>
+                    <input type="number" id="number" name="Idade" placeholder="Sua idade" required="true">
+                    <br>
+
+                    <label for="senha">Sua senha</label>
+                    <br>
+                    <input type="password" id="senha" name="Senha" placeholder="Digite sua senha" required="true" maxlength="8">
+                    <br>
+
+                    <label for="senhaConfirmar">Confirme sua senha</label>
+                    <br>
+                    <input type="password" id="senhaConfirmar" name="ConfirmarSenha" placeholder="Digite sua senha novamente" required="true" maxlength="8">
+                    <br>
+
+                    <p>O que você prefere?</p>
+                    <label for="pizza">Pizza</label>
+                    <input type="radio" id="pizza" name="preferênciaDeComida" value="pizza" required="true">
+
+                    <label for="hamburguer">Hamburguer</label>
+                    <input type="radio" id="hamburguer" name="preferênciaDeComida" value="hamburguer" required="true">
+
+                    <label for="candy">Doce</label>
+                    <input type="radio" id="candy" name="preferênciaDeComida" value="candy" required="true">
+                    <br>
+
+                    <label for="tech">Tecnologia</label>
+                    <br>
+                    <select name="Tecnologia" id="tech" required="true">
+                        <option value="">Escolha qual você gosta mais</option>
+                        <option value="videogame">Video Game</option>
+                        <option value="computer">Computador</option>
+                        <option value="smartphone">Celular</option>
+                    </select>
+                    <br>
+
+                    <!--cols=Colunas da área de texto e rows=Quantas linhas vai ter a área de texto-->
+                    <label for="aboutyou">Sobre você</label>
+                    <br>
+                    <textarea name="SobreAPessoa" id="aboutyou" cols="30" rows="10" required="true" placeholder="Conte um pouco sobre você"></textarea>
+                
+                    <br>
+                    <button type="submit">Enviar pesquisa</button>
+                </fieldset>
+            </form>
+        </section>
+        
+    </main>
+
+    <aside>
+
+
+
+    </aside>
+
+    <footer>
+
+
+
+    </footer>
+    
+</body>
+
+</html>
