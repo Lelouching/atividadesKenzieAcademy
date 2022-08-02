@@ -1,0 +1,67 @@
+body{
+  background-color: rgb(207, 35, 207);
+}
+
+section.nav-header {
+  color: white;
+  background-color: blueviolet;
+  opacity: 0.7;
+  border: solid 1px blue;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.main-content {
+  max-width: 400px;
+  background-color: blueviolet;
+  color: white;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.paragraph-1 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+/*
+Pode-se usar rgba para mudar a opacidade de alguma cor em específico
+
+Tem como fazer colocar algumas propriedas que você queira em várias propriedades em uma só, mesmo elas tendo que ter outras propriedades, ex:
+.nav-header {
+    background-color: black;
+    color: blue;
+    font-size: 20px
+}
+
+.nav-footer {
+    background-color: purple;
+    color: green;
+    font-size: 30px
+
+.nav {
+    border: solid 2px pink;
+    height: 10px;
+    width: 50px;
+}
+
+Mas para isso funcionar, no HTML tem que estar <nav class=nav nav-header></nav> e <nav class=nav nav-footer></nav>.
+Outros exemplos de como estilizar mais especificamente:
+
+input[type] {
+  background-color: blue;
+}
+input[type] vai selecionar todos os inputs que contenham "type" e mudar todos da mesma maneira.
+
+a[href$=".com.br"] {
+  color: red;
+}
+a[href$=".com.br"] vai selecionar todos as âncoras que tiverem ".com.br" em seus links e mudar todos da mesma maneira.
+
+input[type='number'] {
+  background-color: blue;
+}
+input[type='number'] vai selecionar todos input que tenham "type='number'" e mudar todos da mesma forma.
+*/
