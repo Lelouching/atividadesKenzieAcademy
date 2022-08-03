@@ -1,22 +1,23 @@
-.h1-center {
+h1.h1-center {
     text-align: center;
     width: 54%;
 }
 
-.color-blue {
+span.color-blue {
     color: blue;
 }
 
-.background-blue {
+p.background-blue {
     background-color: blue;
     color: white;
     height: 100px;
-    width: 54%;
+    max-height: 100%;
+    max-width: 54%;
     line-height: 30px;
     padding: 8px;
 }
 
-.background-black {
+p.background-black {
     background-color: black;
     color: white;
     text-align: center;
@@ -24,6 +25,7 @@
     width: 54%;
 }
 
-.text-bottom {
-
+span.text-bottom {
+    position: absolute;
+    padding-top: 22px;
 }
