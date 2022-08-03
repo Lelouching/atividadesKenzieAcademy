@@ -24,13 +24,11 @@ ul {
     list-style: none;
     text-align: center;
 }
-
-ul li {
+  ul li {
     display: inline-block;
   
 }
-
-ul li a {
+  ul li a {
     color: white;
     background-color: blue;
     text-transform: uppercase;
@@ -41,9 +39,6 @@ ul li a {
     margin: 0 10px;
 }
 
-ul li a:hover {
-    background-color: blueviolet;
-}
 
 h1.h1-testes {
     color: darkblue;
@@ -51,23 +46,9 @@ h1.h1-testes {
 }
 
 hr.hr {
-    border: 1px solid brown;
+    
 }
 
 h2.h2-olha {
     font-size: 20px;
-}
-
-section.email {
-    text-align: center;
-}
-
-.border {
-    border: 2px solid rgb(206, 206, 206);
-    outline: none;
-    padding: 5px;
-}
-
-.border:focus {
-    border: solid 5px lime;
 }
