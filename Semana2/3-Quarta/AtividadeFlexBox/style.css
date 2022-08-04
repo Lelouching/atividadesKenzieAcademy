@@ -1,0 +1,14 @@
+.boxMain {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin: 300px 0 0 400px;
+}
+
+.boxItem {
+    width: 270px;
+    height: 230px;
+    background-color: #E1E1E1;
+    border-radius: 8px;
+}
