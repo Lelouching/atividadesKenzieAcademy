@@ -1,0 +1,36 @@
+Acessar página inicial do website
+"Se acessar a página inicial, mostrar promoções"
+	"Caso não acessar, não mostrar"
+
+Realizar cadastro
+"Se os dados estão corretos, criar a conta para o usuário"
+	"Caso não estejam correto os dados, não criar e mostrar uma mensagem do que falta"
+
+Acessar aba de celulares
+"Enquanto estiver acessando a aba de celular, vai aparecer promoções do mesmo"
+	"Caso saia da aba de celular, vai desaparecer as promoções"
+
+Procurar produto
+"Enquanto estiver procurando, mostrar sugestões de produtos"
+
+Clicar no produto
+"Se clicar no produto, abrir uma aba falando sobre ele com fotos e descrição"
+	"Se não clicar, não acontecerá nada"
+
+Clicar no botão inserir no carrinho de compras
+"Se clicar, adicionar ao carrinho"
+
+Clicar na aba carrinho de compras
+"Se clicar na aba, irá ser redirecionado para uma página onde irá ver quais itens estão no carrinho"
+
+Clicar no botão finalizar compras
+"Se clicar em 'finalizar compras', levar o usuário à forma de pagamento"
+	"Caso já tenha inserido os dados de compra e pagamento anteriormente, apenas mostrar confirmação de pagamento"
+
+Selecionar o método de pagamento (neste exemplo, por cartão de crédito)
+"Se cartão de crédito, aparecer uma janela para inserir os dados do cartão"
+
+Clicar no botão para concluir a compra
+"Se clicar em 'concluir compra', o pagamento será efetuado."
+	"Caso clique em cancelar compra, não irá efetuar o pagamento e irá para a página inicial"
+
