@@ -1,11 +1,3 @@
-let idade = parseInt(prompt("Qual a sua idade?"));
+let aninhados = [[2, 5], [5, 5], [5, 4], [3, 4], [5, 9], [10, 10], [5, 5]]
 
-if (idade >= 18 ) {
-    console.log("Você é maior de idade.")
-} if (idade < 18 && idade > 0){
-    console.log("Você é menor de idade.")
-} if (idade < 0){
-    console.log("Você não pode digitar um número negativo!")
-} else {
-    console.log("Você não digitou um número!")
-}
+aninhados[1].push("6")

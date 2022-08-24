@@ -1,11 +1,28 @@
-let idade = parseInt(prompt("Qual a sua idade?"));
+// for(inicio; condicao; incremento) {
+//     //código
+// }
 
-if (idade >= 18 ) {
-    console.log("Você é maior de idade.")
-} if (idade < 18 && idade > 0){
-    console.log("Você é menor de idade.")
-} if (idade < 0){
-    console.log("Você não pode digitar um número negativo!")
-} else {
-    console.log("Você não digitou um número!")
+// while(condicao) {
+//     //código
+//     incremento
+// }
+
+const produto = ["banana", "maçã", "uva"];
+let indice = 0;
+
+while(indice < produto.length) {
+
+    console.log(produto[indice])
+    indice++
 }
+
+console.log("Fim do while")
+
+const codigo = parseInt(prompt("Digite o seu código aqui"))
+
+while(codigo != 123) {
+    alert("O seu código não está correto")
+    parseInt(prompt("Digite o seu código aqui novamente"))
+}
+
+alert("Finalmente o código está correto")
