@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Testes</title>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="anchor">
+            <h1>MY TASK'S</h1>
+        </a>
+        <input type="text" id="pesquisar" placeholder="Pesquisar tarefa">
+    </header>
+
+    <main>
+        <section class="inserir-tarefa">
+            <h2>Inserir tarefa</h2>
+            <div class="div-escolha">
+                <form action="">
+                    <input type="text" id="titulo-tarefa" placeholder="Digitar título da tarefa" name="tarefa" required value="">
+                    <select name="selecionar-tipo" id="tipo" required value="">
+                        <option value="">Selecionar tipo</option>
+                        <option value="normal">Normal</option>
+                        <option value="prioritario">Prioritário</option>
+                        <option value="urgente">Urgente</option>
+                    </select>
+            </div>
+                    <div class="div-submit">
+                        <button type="submit" id="botao-submit">Adicionar Tarefa na Lista</button>
+                    </div>
+                </form>
+        </section>
+        <section class="tarefas">
+            <h2>Tarefas</h2>
+            <div class="lista-tarefa">
+                <ul class="ul-listas">
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

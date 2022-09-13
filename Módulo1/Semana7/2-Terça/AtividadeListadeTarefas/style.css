@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    width: 80%;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.349);
+}
+
+.anchor{
+    text-decoration: none;
+}
+
+h1{
+    color: blue;
+}
+
+#pesquisar{
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.inserir-tarefa{
+    display: flex;
+    padding: 40px;
+    margin-top: 100px;
+    flex-direction: column;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.349);
+    height: 300px;
+    justify-content: space-around;
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#titulo-tarefa{
+    width: 500px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgba(128, 128, 128, 0.123);
+    padding: 10px;
+}
+
+#tipo{
+    width: 500px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgba(128, 128, 128, 0.123);
+    padding: 10px;
+}
+
+#botao-submit{
+    width: 95%;
+    height: 50px;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.tarefas{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.349);
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+.ul-listas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li{
+    background-color: rgba(128, 128, 128, 0.123);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.posicao-status{
+    display: flex;
+    margin-right: 40px;
+    margin-top: 3px;
+}
+
+.status-green{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(5, 255, 5);
+    border-radius: 50%;
+}
+
+.status-yellow{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(238, 255, 0);
+    border-radius: 50%;
+}
+
+.status-red{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 5, 5);
+    border-radius: 50%;
+}
+
+.div-li{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.lista-tarefa{
+    height: max-content;
+    margin-top: 10px;
+}
+
+.nome-tarefa{
+    font-size: 18px;
+}
+
+.excluir{
+    height: 20px;
+    width: 20px;
+}
