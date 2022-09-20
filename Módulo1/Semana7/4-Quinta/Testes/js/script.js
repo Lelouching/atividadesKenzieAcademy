@@ -1,29 +1,29 @@
-const user = {
-    username: "Lelouching",
-    password: "123",
-};
-
-function alterarName(newName) {
-    user.username = newName
-}
-
-function alterarPass(newPass) {
-    user.password = newPass
-}
-
-function logIn({username, password}) {
-    if(user.username == username && user.password == password) {
-        console.log(`${username} Logou com sucesso`)
-    } else {
-        console.log("Usuário ou senha inválida")
+const posts = [
+    {
+        title: "Lógica de programação",
+        description: "lorem sf ass fsa fasfassfafsas asfa sfsfa",
+        link: "www.google.com"
+    },
+    {
+        title: "Lógica de programação",
+        description: "lorem sf ass fsa fasfassfafsas asfa sfsfa",
+        link: "www.google.com"
+    },
+    {
+        title: "Lógica de programação",
+        description: "lorem sf ass fsa fasfassfafsas asfa sfsfa",
+        link: "www.google.com"
     }
-}
+]
 
-alterarName("Lelouching1")
-
-const userAccess = {
-    username: "Lelouching",
-    password: "123",
-}
-
-logIn(userAccess);
+document.querySelector(".posts").insertAdjacentHTML("beforeend", `
+    <article class="post">
+        <h1 class="post-title">
+        Lógica de programação
+        </h1>
+        <p class="post-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti inventore illum suscipit deserunt totam! Voluptate odit cum, molestiae obcaecati ratione, quam commodi fugiat quibusdam voluptatibus fugit blanditiis sapiente! Saepe, cumque.
+        </p>
+        <a href="#" target="_blank" class="post-link">Acessar post</a>
+    </article>
+`)

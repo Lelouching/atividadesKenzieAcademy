@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 18px;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 58px 0;
+}
+
+.post .post{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.post .post-title{
+    font-size: 32px;
+}
+
+.post .post-description{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.post .post-link{
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    width: max-content;
+    text-decoration: none;
+    color: black;
+}
+
+.post .post-link:hover{
+    border-color: black;
+}
