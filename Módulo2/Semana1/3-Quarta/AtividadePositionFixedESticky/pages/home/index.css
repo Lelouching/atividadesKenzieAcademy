@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    position: relative;
+}
+
+.header-body{
+    width: 100%;
+    height: 442px;
+    background-color: #5F3DC4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.div-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.h1-header, .h2-header, .p-header, .h2-footer{
+    color: white;
+}
+
+.h2-header{
+    font-size: 50px;
+}
+
+.span-color{
+    color: #EADA79;
+}
+
+.main-body{
+    height: 800px;
+    padding: 70px;
+    position: relative;
+}
+
+.aside-main{
+    background-color: #212529;
+    width: 502px;
+    height: 455px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    position: sticky;
+    top: 0px;
+}
+
+.h2-aside{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: white;
+}
+
+.p-aside{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: white;
+}
+
+.form-aside{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#email-aside{
+    width: 418px;
+    height: 60px;
+    background: #0F1011;
+    border-radius: 8px;
+    outline: none;
+}
+
+#email-aside::placeholder{
+    color: #878788;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+
+.button-aside{
+    background: #5F3DC4;
+    outline: none;
+    border: none;
+    color: white;
+    width: 418px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.button-main{
+    background: #2FC195;
+    color: white;
+    border-radius: 32px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 30px;
+    position: fixed;
+    right: 2%;
+    top: 90%;
+    cursor: pointer;
+}
+
+.footer-body{
+    width: 100%;
+    /* Esse tamanho de 200px é só para testar o sticky do aside */
+    height: 200px;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

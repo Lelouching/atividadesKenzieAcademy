@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e23;
+    position: relative;
+}
+
+.section-body{
+    width: 512px;
+    height: 229px;
+    background-color: #fff;
+    padding: 60px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.h1-section{
+    font-size: 20px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-cancel{
+    width: 120px;
+    height: 37px;
+    background: #1e1e1e23;
+    border: 2px solid #E9ECEF;
+    border-radius: 4px;
+    padding: 9px 25px;
+    color: #868E96;
+    cursor: pointer;
+}
+
+.button-confirm{
+    width: 159px;
+    height: 37px;
+    background-color: #E7F5FF;
+    border: 2px solid #1971C2;
+    border-radius: 4px;
+    padding: 9px 25px;
+    color: #1971C2;
+    cursor: pointer;
+}
+
+.div-body{
+    width: 100%;
+    height: 100vh;
+    background: rgba(33, 37, 41, 0.58);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px 15px 15px;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    width: 442px;
+    height: 177px;
+    background: #3472CE;
+    border-radius: 8px;
+    z-index: 2;
+    animation: modalAnimation 1s ease;
+}
+
+.h2-modal{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+.p-modal{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    line-height: 24px;
+}
+
+.div-modal{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-understand{
+    width: 94px;
+    height: 34px;
+    color: #3472CE;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid #13499b;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+}
+
+@keyframes modalAnimation {
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
