@@ -1,0 +1,9 @@
+div{
+    display: flex;
+    /* flex-direction: column; */
+    border-radius: 0.5rem;
+    width: fit-content;
+    max-width: 100%;
+    gap: 1rem;
+    user-select: none;
+}
