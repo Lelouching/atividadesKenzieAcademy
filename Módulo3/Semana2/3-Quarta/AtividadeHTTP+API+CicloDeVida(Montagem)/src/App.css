@@ -1,0 +1,18 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+button{
+  padding: 0.75rem 1rem;
+  color: #FFF;
+  background-color: grey;
+  border: none;
+  border-radius: .25rem;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: green;
+}
